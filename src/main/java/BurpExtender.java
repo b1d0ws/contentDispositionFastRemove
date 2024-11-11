@@ -10,6 +10,6 @@ public class BurpExtender implements BurpExtension {
     public void initialize(MontoyaApi api) {
         api.extension().setName("Content-Disposition Fast Remove");
         api.userInterface().registerContextMenuItemsProvider(new MyContextMenuItemsProvider(api));
-        api.logging().logToOutput("Content-Disposition Fast Remove extension loaded! \r\n https://github.com/b1d0ws/");
+        api.logging().logToOutput("Content-Disposition Fast Remove extension loaded!\r\nhttps://github.com/b1d0ws/");
     }
 }
